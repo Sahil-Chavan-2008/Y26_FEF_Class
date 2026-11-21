@@ -1,0 +1,331 @@
+/* 1. Element Selector */
+
+body {
+background-color: #F0E6FF;
+font-family: Arial, sans-serif;
+font-size: 14px;
+padding: 10px;
+}
+
+h2 {
+background-color: #263A70;
+color: white;
+text-align: center;
+padding: 15px;
+border-radius: 8px;
+font-size: 25px;
+}
+
+/* 2. ID Selector */
+
+#heading {
+color: #8E44AD;
+font-size: 22px;
+font-weight: bold;
+}
+
+/* 3. Class Selector */
+
+.para {
+background-color: #3498DB;
+color: white;
+padding: 8px;
+}
+
+.para(2) {
+background-color: #27AE60;
+}
+
+/* 4. Grouping Selector */
+
+h3, h4 {
+font-weight: bold;
+}
+
+.group {
+background-color: #F39C12;
+color: white;
+padding: 8px;
+}
+
+/* 5. Child Selector */
+
+div > p {
+background-color: #16A085;
+color: white;
+padding: 8px;
+}
+
+/* 6. Descendant Selector */
+
+div p {
+color: white;
+}
+
+div section p {
+background-color: #E84393;
+padding: 8px;
+}
+
+/* 7. Adjacent Sibling Selector */
+
+h4 + p {
+background-color: #9B59B6;
+color: white;
+padding: 8px;
+}
+
+/* 8. General Sibling Selector */
+
+h4 ~ p {
+background-color: #6C5CE7;
+color: white;
+padding: 8px;
+}
+
+/* 9. Attribute Selector */
+
+input[type="text"] {
+background-color: #FFF3CD;
+border: 2px solid #E1A900;
+padding: 6px;
+}
+
+input[type="password"] {
+background-color: #D6EAF8;
+border: 2px solid #3498DB;
+padding: 6px;
+}
+
+input[type="email"] {
+background-color: #D5F5E3;
+border: 2px solid #27AE60;
+padding: 6px;
+}
+
+/* 10. Pseudo-Class Selector */
+
+/* Button Styling */
+
+button {
+background-color: #34495E;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+}
+
+/* Hover */
+
+button {
+background-color: #E67E22;
+color: white;
+cursor: pointer;
+}
+
+/* Focus */
+
+input {
+outline: 2px solid #8E44AD;
+background-color: #E8DAEF;
+}
+
+/* First Child */
+
+li {
+color: #E74C3C;
+font-weight: bold;
+}
+
+/* Second Child */
+
+li(2) {
+background-color: #ABEBC6;
+color: #145A32;
+}
+
+/* Last Child */
+
+li {
+color: #8E44AD;
+font-weight: bold;
+}
+
+/* Checked */
+
+input {
+accent-color: #27AE60;
+}
+
+/* Disabled */
+
+input {
+background-color: #555555;
+color: white;
+border: 2px solid black;
+}/* 1. Element Selector */
+
+body {
+background-color: #F0E6FF;
+font-family: Arial, sans-serif;
+font-size: 14px;
+padding: 10px;
+}
+
+h2 {
+background-color: #263A70;
+color: white;
+text-align: center;
+padding: 15px;
+border-radius: 8px;
+font-size: 25px;
+}
+
+/* 2. ID Selector */
+
+#heading {
+color: #8E44AD;
+font-size: 22px;
+font-weight: bold;
+}
+
+/* 3. Class Selector */
+
+.para {
+background-color: #3498DB;
+color: white;
+padding: 8px;
+}
+
+.para(2) {
+background-color: #27AE60;
+}
+
+/* 4. Grouping Selector */
+
+h3, h4 {
+font-weight: bold;
+}
+
+.group {
+background-color: #F39C12;
+color: white;
+padding: 8px;
+}
+
+/* 5. Child Selector */
+
+div > p {
+background-color: #16A085;
+color: white;
+padding: 8px;
+}
+
+/* 6. Descendant Selector */
+
+div p {
+color: white;
+}
+
+div section p {
+background-color: #E84393;
+padding: 8px;
+}
+
+/* 7. Adjacent Sibling Selector */
+
+h4 + p {
+background-color: #9B59B6;
+color: white;
+padding: 8px;
+}
+
+/* 8. General Sibling Selector */
+
+h4 ~ p {
+background-color: #6C5CE7;
+color: white;
+padding: 8px;
+}
+
+/* 9. Attribute Selector */
+
+input[type="text"] {
+background-color: #FFF3CD;
+border: 2px solid #E1A900;
+padding: 6px;
+}
+
+input[type="password"] {
+background-color: #D6EAF8;
+border: 2px solid #3498DB;
+padding: 6px;
+}
+
+input[type="email"] {
+background-color: #D5F5E3;
+border: 2px solid #27AE60;
+padding: 6px;
+}
+
+/* 10. Pseudo-Class Selector */
+
+/* Button Styling */
+
+button {
+background-color: #34495E;
+color: white;
+padding: 10px 20px;
+border: none;
+border-radius: 5px;
+}
+
+/* Hover */
+
+button {
+background-color: #E67E22;
+color: white;
+cursor: pointer;
+}
+
+/* Focus */
+
+input {
+outline: 2px solid #8E44AD;
+background-color: #E8DAEF;
+}
+
+/* First Child */
+
+li {
+color: #E74C3C;
+font-weight: bold;
+}
+
+/* Second Child */
+
+li(2) {
+background-color: #ABEBC6;
+color: #145A32;
+}
+
+/* Last Child */
+
+li {
+color: #8E44AD;
+font-weight: bold;
+}
+
+/* Checked */
+
+input {
+accent-color: #27AE60;
+}
+
+/* Disabled */
+
+input {
+background-color: #555555;
+color: white;
+border: 2px solid black;
+}
